@@ -1,0 +1,38 @@
+body {
+	background-color: aliceblue;
+}
+
+.header {
+	background-color: hotpink;
+	padding: 15px;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	color: aliceblue;
+	text-align: center;
+	font-size: 90px;
+}
+
+p {
+	text-align: center;
+	font-size: 30px;
+}
+
+.content-1 {
+	margin-top: 10px;
+	background-color: yellow;
+	color: red;
+	font-family: 'Inconsolata', monospace;
+}
+
+.content-2 {
+	margin-top: 10px;
+	background-color: red;
+	color: white;
+	font-family: 'Inconsolata', monospace;
+}
+
+/*Font info
+font-family: 'Indie Flower', cursive;
+font-family: 'Inconsolata', monospace;*/

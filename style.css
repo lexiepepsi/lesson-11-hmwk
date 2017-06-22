@@ -6,6 +6,10 @@ body {
 	background-color: hotpink;
 	padding: 15px;
 	font-family: 'Indie Flower', cursive;
+	border-radius: 30px;
+	border-style: dashed;
+	border-width: 8px;
+	border-color: pink;
 }
 
 h1 {
@@ -20,17 +24,39 @@ p {
 }
 
 .content-1 {
-	margin-top: 10px;
+	border-radius: 30px;
+	border-style: dashed;
+	border-width: 8px;
+	border-color: pink;
+	margin-top: 20px;
 	background-color: yellow;
 	color: red;
+	padding: 15px;
 	font-family: 'Inconsolata', monospace;
 }
 
 .content-2 {
-	margin-top: 10px;
+	border-radius: 30px;
+	border-style: dashed;
+	border-width: 8px;
+	border-color: pink;
+	margin-top: 20px;
 	background-color: red;
 	color: white;
+	padding: 15px;
 	font-family: 'Inconsolata', monospace;
+}
+
+.cuteness {
+	margin-top: 20px;
+	text-align: center;
+}
+
+img {
+	border-radius: 30px;
+	border-style: dashed;
+	border-width: 8px;
+	border-color: pink;
 }
 
 /*Font info

@@ -2,9 +2,16 @@ body {
 	background-color: aliceblue;
 }
 
-/*.container {
+
+/*Attempted to set default to none so I could change later
+using js to display the container*/
+
+/*Maybe I need to call the objects in the container?
+
+*//*.container {
 	display: none;
 }*/
+
 
 /*Font info
 font-family: 'Indie Flower', cursive;

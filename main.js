@@ -49,9 +49,22 @@ $(document).ready(function() {
 
 	$(".content-1").hover(function() {
 		$(".p-one").fadeOut(2000);
-		$("")
+		$(".p-two").slideUp(3000);
+		$(".content-2").animate( {
+			width: 200
+		}, 1000, function() {
+			$(".content-2").animate( {
+				width: 1900
+			}, 5000);
+		});
 	});
 
+
+	$(".cuteness").hover(function() {
+		$("img").animate( {
+			opacity: 0.25
+		}, 1000);
+	});
 
 	
 });

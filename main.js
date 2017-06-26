@@ -4,7 +4,8 @@ $(document).ready(function() {
 
 // Trying to get mouseenter or click to prompt 
 // content dispalying, attempted to set default
-// for container to display: none but still didn't work
+// for container to display: none in css 
+// but still didn't work
 	// 	$("body").mouseenter(function() {
 	// 		$(".container").show();	
 	// 	});
@@ -46,7 +47,11 @@ $(document).ready(function() {
 	});
 
 
-
+// Hover kind of happens naturally after click hides h1
+// because content shifts up but this is not triggered by
+// the click, its just a product of how someone might click
+// towards the top of page and happen to be hovering on
+// the first content block
 	$(".content-1").hover(function() {
 		$(".p-one").fadeOut(2000);
 		$(".p-two").slideUp(3000);
